@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+    <link rel="stylesheet" href="Mendozalab3.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="navbar">
+    <img src="logo2.png" class="nav-logo" alt="Logo">
+
+    <!-- NAV LINKS -->
+    <div class="nav-links">
+        <a href="index.html">Home</a> |
+        <a href="Mendoza_lab1.html">Lab 1</a> |
+        <a href="Mendoza_lab2.html">Lab 2</a> |
+        <a href="Mendozalab3.html">Lab 3</a>
+    </div>
+
+    <!-- TOGGLE BELOW -->
+    <div class="nav-toggle">
+        <button id="themeBtn">Dark Mode</button>
+    </div>
+</header>
+
+<section id="main-content">
+
+    <div class="left-column">
+
+        <div class="profile-section">
+            <img src="IMG_0003_JC_2X2.jpg" class="profile-img" alt="Profile Image">
+
+            <h2 class="name">Kym Raimier Mendoza</h2>
+
+            <span class="job-title" id="jobTitle">BSIT</span><br>
+            <button id="editJobBtn">Edit Job Title</button>
+
+            <br><br>
+            <button id="imgBtn">Change Profile Picture</button>
+        </div>
+
+        <div class="contact-section">
+            <h3>Contact</h3>
+            <p>Email:
+                <a href="mailto:mendozakm@students.nu-fairview.edu.ph">
+                    mendozakm@students.nu-fairview.edu.ph
+                </a>
+            </p>
+        </div>
+
+        <button id="toggleSkillsBtn">Hide Skills</button>
+
+        <div class="skills-section" id="skillsSection">
+            <h3>Skills</h3>
+            <ul>
+                <li>Math</li>
+                <li>Arduino</li>
+                <li>Designs</li>
+            </ul>
+        </div>
+
+        <div class="experience-section">
+            <h1>Experience</h1>
+            <p>My experience in IT has been enjoyable, especially now that I'm really liking my program.</p>
+        </div>
+
+    </div>
+
+    <div class="right-column">
+
+        <div id="about">
+            <h2>About Me</h2>
+            <p>I like Math, watching movies, and playing games.</p>
+        </div>
+
+        <div class="Achievements">
+            <h1>Achievements</h1>
+            <p>4x Deanlister</p>
+        </div>
+
+        <div class="message-form">
+            <h2>Message Me</h2>
+
+            <form onsubmit="return validateForm()">
+                <input type="text" id="nameField" placeholder="Your Name"><br><br>
+                <input type="email" id="emailField" placeholder="Your Email"><br><br>
+
+                <textarea id="msgBox" maxlength="200" rows="5"
+                    placeholder="Your Message"></textarea>
+                <p>Characters left: <span id="counter">200</span></p>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p><strong>WebProg - Web Programming 2025</strong></p>
+    <p id="dateDisplay"></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* =========================
+   NAVBAR
+   ========================= */
+.navbar {
+    background: #222;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+/* Logo */
+.nav-logo {
+    width: 400px;
+    height: 90px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+/* Home | About Me */
+.nav-links {
+    margin-bottom: 6px;
+}
+
+/* Bigger navbar text */
+.navbar a,
+#themeBtn {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: skyblue;
+}
+
+/* Toggle below links */
+.nav-toggle {
+    margin-top: 5px;
+}
+
+/* Toggle styled like link */
+#themeBtn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+#themeBtn:hover {
+    color: skyblue;
+}
+
+/* =========================
+   DARK MODE (NAVBAR)
+   ========================= */
+.dark-mode .navbar {
+    background: #222;
+}
+
+.dark-mode .navbar a {
+    color: white;
+}
+
+.dark-mode #themeBtn {
+    color: white;
+}
+
+.dark-mode #themeBtn:hover {
+    color: skyblue;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom right, #4f8edb, #87b5ff);
+    color: white;
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 80%;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: #333;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e0e0e0;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Dark Mode Sections */
+.dark-mode .skills-section,
+.dark-mode .experience-section,
+.dark-mode .Achievements,
+.dark-mode #about p,
+.dark-mode .contact-section p {
+    background: #1e1e1e;
+    color: white;
+}
+
+/* Dark Mode Navbar Links */
+.dark-mode .navbar a {
+    color: white;
+}
+
+.dark-mode .navbar a:hover {
+    color: skyblue;
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode #themeBtn {
+    color: white;
+}
+
+.dark-mode #themeBtn:hover {
+    color: skyblue;
+}
+
